@@ -1,5 +1,6 @@
 #!/usr/bin/bash
-# Backup cronjob
+# This script archives a specified directory
+# Example: backup.sh <directory to backup> <backup to directory> <number of backups to keep>
 backup_target_dir=$1
 backup_dir=$2
 number_of_backups=$3
