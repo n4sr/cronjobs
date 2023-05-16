@@ -6,6 +6,7 @@
 
 if [[ -z $1 ]]; then
     echo 'usage: ./njalla.sh <infile> <logfile>'
+    exit 1
 fi
 
 # get ipv4 and ipv6 from google
